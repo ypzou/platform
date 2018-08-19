@@ -3,14 +3,9 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
         druid:
-            first:
-                url: jdbc:mysql://localhost:3306/jianbo_v1?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: root
-                password: 123456
-            second:
-                url: jdbc:mysql://localhost:3306/jianbo_v1?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: root
-                password: 123456
+            url: jdbc:mysql://localhost:3306/jianbo_v1?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+            username: root
+            password: 123456
             initial-size: 10
             max-active: 100
             min-idle: 10
